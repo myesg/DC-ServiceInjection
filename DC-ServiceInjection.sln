@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B18BB2C2-C95D-4C85-9DC2-C3D2A8AD3CE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D8BE4BEE-19AD-4BAA-94F2-20D0122E6B08}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DC-ServiceInjection", "src\DC-ServiceInjection\DC-ServiceInjection.xproj", "{20DECEBB-D1C8-4CA5-88E3-E11FC866F9BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20DECEBB-D1C8-4CA5-88E3-E11FC866F9BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20DECEBB-D1C8-4CA5-88E3-E11FC866F9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20DECEBB-D1C8-4CA5-88E3-E11FC866F9BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20DECEBB-D1C8-4CA5-88E3-E11FC866F9BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20DECEBB-D1C8-4CA5-88E3-E11FC866F9BC} = {B18BB2C2-C95D-4C85-9DC2-C3D2A8AD3CE6}
+	EndGlobalSection
+EndGlobal
